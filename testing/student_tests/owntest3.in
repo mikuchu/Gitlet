@@ -1,0 +1,37 @@
+>init
+<<<
++ a.txt a.txt
++ b.txt b.txt
+> add a.txt
+<<<
+> add b.txt
+<<<
+> commit "a b"
+<<<
+> branch a
+<<<
++ c.txt notc.txt
+> add c.txt
+<<<
+> branch b
+<<<
++ h.txt wug2.txt
+> add h.txt
+<<<
+> commit "c"
+<<<
+> branch c
+<<<
+> checkout b
+<<<
+> rm a.txt
+<<<
++ d.txt d.txt
+> add z.txt
+<<<
+> commit "Add z.txt and remove a.txt"
+<<<
+> checkout master
+<<<
+> rest b
+<<<
